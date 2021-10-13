@@ -35,8 +35,7 @@ Your Pages site will use the layout and styles from the Jekyll theme you have se
 ### Support or Contact
 
 Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://support.github.com/contact) and we’ll help you sort it out.
-
-```Header 1``` #Header 1 **Header 1**
+<h1> Arch Linux Installation </h1>
 I first downloaded the Arch Linux ISO and set up a VM with the memory specifications in the PowerPoint.
 Upon booting up the VM, I pinged ArchLinux.org and confirmed an Internet Connection.
 I also configured the time with "timedatectl set-ntp true".
@@ -59,14 +58,14 @@ grub-install --target=x86_64 efi --efi-directory=/efi/ --bootloader-id=Arch #Thi
 #I had to start over from scratch to get it to work
 grub-mkconfig -o /boot/grub/grub.cfg
 
-With all this done, I finally remove the iso from my VM and boot into Arch successfully.
+<h2>Booting into Arch</h2>
 
 Within Arch, I try pinging ArchLinux.org again to discover that my network isn't set up yet. 
 I cd into /etc/netctl and copy the ethernet-dhcp file from /examples in order to edit it with my info.
 I first uncomment the dhcpcd line and then use ip a to discover my interface name is ens33 and edit ethernet-dhcp again.
 I then enable and start both dhcpcd and wpa_supplicant (I'm on Wi-Fi) and lo and behold, my internet works!
 
-Now begins the supplemental tasks...
+<h3>Extra Tasks</h3>
 
 Gnome was the GUI I ended up choosing to start off with, to begin, I used sudo pacman --sync xorg xorg-server to download the X Window System
 I then installed Gnome via sudo pacman --sync gnome and then enabled and started it with sudo systemctl start(enable) gdm.service
