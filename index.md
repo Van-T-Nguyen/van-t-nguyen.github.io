@@ -1,41 +1,4 @@
-## Welcome to GitHub Pages
-
-You can use the [editor on GitHub](https://github.com/Van-T-Nguyen/van-t-nguyen.github.io/edit/main/index.md) to maintain and preview the content for your website in Markdown files.
-
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
-
-### Markdown
-
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
-
-```markdown
-Syntax highlighted code block
-
-# Header 1
-## Header 2
-### Header 3
-
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
-```
-
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/Van-T-Nguyen/van-t-nguyen.github.io/settings/pages). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://support.github.com/contact) and we’ll help you sort it out.
-<h1> Arch Linux Installation </h1>
+<h2> Arch Linux Installation </h2>
 <ol>
   <li>I first downloaded the Arch Linux ISO and set up a VM with the memory specifications in the PowerPoint.</li>
   <li>Upon booting up the VM, I pinged ArchLinux.org and confirmed an Internet Connection.</li>
@@ -59,21 +22,23 @@ Having trouble with Pages? Check out our [documentation](https://docs.github.com
 </ol>
 
 <h2>Booting into Arch</h2>
+<ol>
+  <li>Within Arch, I try pinging ArchLinux.org again to discover that my network isn't set up yet.</li>
+  <li>I cd into /etc/netctl and copy the ethernet-dhcp file from /examples in order to edit it with my info.</li>
+  <li>I first uncomment the dhcpcd line and then use ip a to discover my interface name is ens33 and edit ethernet-dhcp again.</li>
+  <li>I then enable and start both dhcpcd and wpa_supplicant (I'm on Wi-Fi) and lo and behold, my internet works!</li>
+</ol>
+  
+<h2>Extra Tasks</h2>
+<ol>
+  <li>Gnome was the GUI I ended up choosing to start off with, to begin, I used sudo pacman --sync xorg xorg-server to download the X Window System</li>
+  <li>I then installed Gnome via sudo pacman --sync gnome and then enabled and started it with sudo systemctl start(enable) gdm.service</li>
+  <li>This ensures that Gnome will always boot up at startup.</li>
+  <li>I also downloaded zsh while I was at it.</li>
+  <li>I used passwd to change codi and sal's accounts to the specified password</li>
+  <li>I then used sudo passwd -e codi/sal to force the passwords to be changed upon the next login to these accounts.</li>
+  <li>I found a neat website: bashrcgenerator.com to edit my terminal color scheme.</li>
+  <li>I used gedit to modify both .bashrc and .zhrc to add my alias and such.</li>
+</ol>
 
-Within Arch, I try pinging ArchLinux.org again to discover that my network isn't set up yet. 
-I cd into /etc/netctl and copy the ethernet-dhcp file from /examples in order to edit it with my info.
-I first uncomment the dhcpcd line and then use ip a to discover my interface name is ens33 and edit ethernet-dhcp again.
-I then enable and start both dhcpcd and wpa_supplicant (I'm on Wi-Fi) and lo and behold, my internet works!
-
-<h3>Extra Tasks</h3>
-
-Gnome was the GUI I ended up choosing to start off with, to begin, I used sudo pacman --sync xorg xorg-server to download the X Window System
-I then installed Gnome via sudo pacman --sync gnome and then enabled and started it with sudo systemctl start(enable) gdm.service
-This ensures that Gnome will always boot up at startup.
-I also downloaded zsh while I was at it.
-I used passwd to change codi and sal's accounts to the specified password
-I then used sudo passwd -e codi/sal to force the passwords to be changed upon the next login to these accounts.
-I found a neat website: bashrcgenerator.com to edit my terminal color scheme.
-I used gedit to modify both .bashrc and .zhrc to add my alias and such.
-
-ssh -p53997 van@129.244.245.21
+ssh -p53997 vtn4118@129.244.245.21
