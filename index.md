@@ -11,14 +11,14 @@
   <li>arch-chroot /mnt to go to the root directory, to continue downloading packages.</li>
   <li>First, however, I decided to switch to the Chicago local time as they share timezones with us. (ln -sf /usr/share/zoneinfo/America/Chicago /etc/localtime)</li>
   <li>I then connected the localtime to the hardware clock (hwclock --systohc)</li>
-  <li>I then decided to get both vim and nano to edit /etc/locale.gen (uncommenting us utf-8) using "pacman -sync vim nano"</li>
+  <li>I then decided to get both vim and nano to edit /etc/locale.gen (uncommenting us utf-8) using "pacman --sync vim nano"</li>
   <li>I then used vim to edit etc/hosts and add my info according to the wiki and I created /etc/hostname as well.</li>
   <li>I gave root a password via passwd.</li>
-  <li>I also got sudo (pacman -sync sudo) to add sudo users along with netctl (pacman -Syc netctl), I also grabbed dialog, wpa_supplicant, and dhcpcd.</li>
+  <li>I also got sudo (pacman -sync sudo) to add sudo users along with netctl (pacman --sync netctl), I also grabbed dialog, wpa_supplicant, and dhcpcd. #This was necessary as I'm using Wi-Fi, I had to look this up.</li> 
   <li>I also enabled wheel users to use sudo by uncommenting the line in visudo, and then I made a user for myself in the wheel group.</li>
   <li>Finally, I install grub and efibootmgr.</li>
-  <li>grub-install --target=x86_64 efi --efi-directory=/efi/ --bootloader-id=Arch #This originally failed, which prevented me from booting into Arch #I had to start over from scratch to get it to work</li>
-  <li>grub-mkconfig -o /boot/grub/grub.cfg</li>
+  <li>grub-install --target=x86_64 efi --efi-directory=/efi/ --bootloader-id=Arch #This originally failed, which prevented me from booting into Arch, I had to start over from scratch to get it to work</li>
+  <li>grub-mkconfig -o /boot/grub/grub.cfg this and the above command sets up grub and lets you boot into Arch using grub.</li>
 </ol>
 
 <h2>Booting into Arch</h2>
@@ -41,4 +41,6 @@
   <li>I used gedit to modify both .bashrc and .zhrc to add my alias and such.</li>
 </ol>
 
+ip a
+sudo -l -U "user"
 ssh -p53997 vtn4118@129.244.245.21
