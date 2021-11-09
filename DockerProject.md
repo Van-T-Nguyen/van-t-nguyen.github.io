@@ -1,27 +1,6 @@
-<!-- Tab links -->
-<div class="tab">
-  <button class="tablinks" onclick="openCity(event, 'London')">London</button>
-  <button class="tablinks" onclick="openCity(event, 'Paris')">Paris</button>
-  <button class="tablinks" onclick="openCity(event, 'Tokyo')">Tokyo</button>
-</div>
-
-<!-- Tab content -->
-<div id="London" class="tabcontent">
-  <h3>London</h3>
-  <p>London is the capital city of England.</p>
-</div>
-
-<div id="Paris" class="tabcontent">
-  <h3>Paris</h3>
-  <p>Paris is the capital of France.</p>
-</div>
-
-<div id="Tokyo" class="tabcontent">
-  <h3>Tokyo</h3>
-  <p>Tokyo is the capital of Japan.</p>
-</div>
-
 <h2> OpenVAS Docker Installation </h2>
+<h6> Using the guide found at: https://utulsa.hosted.panopto.com/Panopto/Pages/Embed.aspx?id=75912983-0806-47a5-a3ad-acc9018aaec3 
+![image](https://user-images.githubusercontent.com/46911024/140988805-3cce2f12-84e1-4c93-81c1-90fb424811da.png)</h6>
 <ol>
   <li>I first downloaded the Arch Linux ISO and set up a VM with the memory specifications in the PowerPoint.</li>
   <li>Upon booting up the VM, I pinged ArchLinux.org and confirmed an Internet Connection.</li>
