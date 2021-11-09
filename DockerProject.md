@@ -11,8 +11,8 @@
 </ol>
   
 <h2> OpenVAS screenshots </h2>
-![image](https://user-images.githubusercontent.com/46911024/141006493-133fab50-34f7-4020-8c3f-a70de262e75e.png)
-![image](https://user-images.githubusercontent.com/46911024/141006508-c04f883a-673b-40a4-9358-d065bb816403.png)
-![image](https://user-images.githubusercontent.com/46911024/141006516-846c2a04-4c6f-4f20-bbd8-61e7d539fb31.png)
+<img src="https://user-images.githubusercontent.com/46911024/141006493-133fab50-34f7-4020-8c3f-a70de262e75e.png">
+<img src="https://user-images.githubusercontent.com/46911024/141006508-c04f883a-673b-40a4-9358-d065bb816403.png">
+<img src="https://user-images.githubusercontent.com/46911024/141006516-846c2a04-4c6f-4f20-bbd8-61e7d539fb31.png">
 
 As you can see in my video, I also installed conky to show off. This is my installation guide in full. 
