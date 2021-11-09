@@ -1,6 +1,6 @@
 <h2> OpenVAS Docker Installation </h2>
 <h6> Using the guide found at: https://utulsa.hosted.panopto.com/Panopto/Pages/Embed.aspx?id=75912983-0806-47a5-a3ad-acc9018aaec3 
-![image](https://user-images.githubusercontent.com/46911024/140988805-3cce2f12-84e1-4c93-81c1-90fb424811da.png)</h6>
+
 <ol>
   <li>I first downloaded the Arch Linux ISO and set up a VM with the memory specifications in the PowerPoint.</li>
   <li>Upon booting up the VM, I pinged ArchLinux.org and confirmed an Internet Connection.</li>
