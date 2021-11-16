@@ -14,5 +14,7 @@
 <img src="https://user-images.githubusercontent.com/46911024/141006493-133fab50-34f7-4020-8c3f-a70de262e75e.png">
 <img src="https://user-images.githubusercontent.com/46911024/141006508-c04f883a-673b-40a4-9358-d065bb816403.png">
 <img src="https://user-images.githubusercontent.com/46911024/141006516-846c2a04-4c6f-4f20-bbd8-61e7d539fb31.png">
-<img src="https://user-images.githubusercontent.com/46911024/141661101-2af24a94-3a66-457a-99cd-12012fa26437.png">
+  
+  <h2> Docker Compose Code Block </h2>
+<img src="https://user-images.githubusercontent.com/46911024/142059638-638c0fcc-d5f7-43b7-acea-dd3fe6785571.png">
 . 
