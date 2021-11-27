@@ -29,14 +29,14 @@ mkdir -p ~/wireguard/config/
 </ol>
   
 <h2> Phone Screenshots (Regular IP first)</h2>
-<img src="https://user-images.githubusercontent.com/46911024/141006493-133fab50-34f7-4020-8c3f-a70de262e75e.png">
-<img src="https://user-images.githubusercontent.com/46911024/141006508-c04f883a-673b-40a4-9358-d065bb816403.png">
-<img src="https://user-images.githubusercontent.com/46911024/141006516-846c2a04-4c6f-4f20-bbd8-61e7d539fb31.png">
+<img src="https://user-images.githubusercontent.com/46911024/143720678-b92b9fd1-a327-41df-87dd-508870b1c809.png">
+<img src="https://user-images.githubusercontent.com/46911024/143720683-dbc7b3e7-9be0-424f-87c4-7142b314d231.png">
+<img src="https://user-images.githubusercontent.com/46911024/143720687-9073c582-aa50-40e5-9902-d135aa462771.png">
 
 <h2> PC Screenshots (Regular IP first)</h2>
-<img src="https://user-images.githubusercontent.com/46911024/141006493-133fab50-34f7-4020-8c3f-a70de262e75e.png">
-<img src="https://user-images.githubusercontent.com/46911024/141006508-c04f883a-673b-40a4-9358-d065bb816403.png">
-<img src="https://user-images.githubusercontent.com/46911024/141006516-846c2a04-4c6f-4f20-bbd8-61e7d539fb31.png">
+<img src="https://user-images.githubusercontent.com/46911024/143720697-c00b6263-f7f3-4e44-b9c8-17fac40b44c6.png">
+<img src="https://user-images.githubusercontent.com/46911024/143720700-7587885f-5c7e-4b8f-9d5f-3a7d69e24aff.png">
+<img src="https://user-images.githubusercontent.com/46911024/143720705-56e57ba4-8281-45b3-ae1b-8804aacaf82e.png">
   
   <h2> Docker Compose Code Block </h2>
-<img src="https://user-images.githubusercontent.com/46911024/142059638-638c0fcc-d5f7-43b7-acea-dd3fe6785571.png">
+<img src="https://user-images.githubusercontent.com/46911024/143720710-323e639d-b177-4fa2-b5d1-6e85edb86b35.png">
