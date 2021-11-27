@@ -33,10 +33,8 @@ mkdir -p ~/wireguard/config/
 <img src="https://user-images.githubusercontent.com/46911024/143720683-dbc7b3e7-9be0-424f-87c4-7142b314d231.png">
 <img src="https://user-images.githubusercontent.com/46911024/143720777-1ed2a4d5-2ecd-44e8-b5de-7fe4700d7fc3.png">
 
-<h2> PC Screenshots (Regular IP first)</h2>
-<img src="https://user-images.githubusercontent.com/46911024/143720697-c00b6263-f7f3-4e44-b9c8-17fac40b44c6.png">
-<img src="https://user-images.githubusercontent.com/46911024/143720700-7587885f-5c7e-4b8f-9d5f-3a7d69e24aff.png">
-<img src="https://user-images.githubusercontent.com/46911024/143720776-0db8fb5f-9498-44c4-a353-e0e4c02b3529.png">
-  
+<h2> PC Screenshots</h2>
+<img src="https://user-images.githubusercontent.com/46911024/143722168-8b41be13-87fa-43d1-9ff5-7bd36ccd37a0.png">
+
   <h2> Docker Compose Code Block </h2>
 <img src="https://user-images.githubusercontent.com/46911024/143720710-323e639d-b177-4fa2-b5d1-6e85edb86b35.png">
