@@ -43,5 +43,3 @@
 
 As you can see in my video, I also installed conky to show off. This is my installation guide in full. 
 
-<a href="DockerProject.md">Project 2</a>
-<a href="VPN.md">Project 3</a>
